@@ -1,9 +1,5 @@
-// event listener to respond to "Show another quote" button clicks
-// when user clicks anywhere on the button, the "printQuote" function is called
-//document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-//will add later once other codes have been updated.
 
-//quotes where JS selects at random
+
 var quotes = [
 	{quote: "I think the worst time to have a heart attack is during a game of charades.", 
 	author: "Demetri Martin",
@@ -41,4 +37,11 @@ var quotes = [
 function getRandomQuote () {
 	randomQuote = Math.floor(Math.random()*quotes.length);
 	returns
+};
+
+//function to print the quote
+// event listener to respond to "Show another quote" button clicks
+// when user clicks anywhere on the button, the "printQuote" function is called
+function printQuote (message) {
+var printToPage = document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 };
