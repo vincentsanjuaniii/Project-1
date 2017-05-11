@@ -3,6 +3,7 @@
 //document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 //will add later once other codes have been updated.
 
+//quotes where JS selects at random
 var quotes = [
 	{quote: "I think the worst time to have a heart attack is during a game of charades.", author: "Demetri Martin"},
 	{quote: "I love lamp.", author: "Steve Carell", citation: "Anchor Man"},
@@ -13,3 +14,8 @@ var quotes = [
 	{quote: "I bet the sparrow looks at the parrot and thinks, yes, you can talk, but LISTEN
 		TO YOURSELF!", author: "Jack Handey", citation: "Saturday Night Live", year: "1995"}
 ];
+
+// create code to randomly select quotes
+function getRandomQuote () {
+
+};
