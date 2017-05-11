@@ -39,8 +39,6 @@ var quotes = [
 
 // create code to randomly select quotes
 function getRandomQuote () {
-	for (var i = 0, i<quotes.length; i+=1) {
-		quote = quotes[i];
-		message
-	}
+	randomQuote = Math.floor(Math.random()*quotes.length);
+	returns
 };
